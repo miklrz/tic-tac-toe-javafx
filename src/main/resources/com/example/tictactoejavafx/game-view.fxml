@@ -25,47 +25,47 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Button mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0">
+                  <Button fx:id="button00" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.columnIndex="1">
+                  <Button fx:id="button10" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.columnIndex="1">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.columnIndex="2">
+                  <Button fx:id="button20" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.columnIndex="2">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.rowIndex="1">
+                  <Button fx:id="button01" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.rowIndex="1">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <Button fx:id="button11" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <Button fx:id="button21" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.rowIndex="2">
+                  <Button fx:id="button02" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.rowIndex="2">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <Button fx:id="button12" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="167.0" prefWidth="167.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="99.0" prefWidth="105.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <Button fx:id="button22" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="99.0" prefWidth="105.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font size="24.0" />
                      </font>
@@ -74,11 +74,11 @@
             </GridPane>
          </children>
       </FlowPane>
-      <Text fx:id="winnerText" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0"  textAlignment="CENTER" wrappingWidth="500.0">
+      <Text fx:id="winnerText" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="500.0">
          <font>
             <Font size="36.0" />
          </font>
       </Text>
-      <Button layoutX="227.0" layoutY="426.0" mnemonicParsing="false" text="Reset" />
+      <Button layoutX="227.0" layoutY="426.0" mnemonicParsing="false" onAction="#resetButton" text="Reset" />
    </children>
 </AnchorPane>

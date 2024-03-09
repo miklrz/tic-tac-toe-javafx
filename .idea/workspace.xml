@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed94c59-aae9-466e-a3fb-fa57f79f8c13" name="Changes" comment="checkWin func">
+    <list default="true" id="0ed94c59-aae9-466e-a3fb-fa57f79f8c13" name="Changes" comment="changed view&#10;win title&#10;reset button (to-do)">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tictactoejavafx/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tictactoejavafx/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tictactoejavafx/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tictactoejavafx/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tictactoejavafx/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tictactoejavafx/game-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tictactoejavafx/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tictactoejavafx/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tictactoejavafx/game-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tictactoejavafx/game-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,7 @@
       <updated>1709973966917</updated>
       <workItem from="1709973968218" duration="732000" />
       <workItem from="1709974740860" duration="2045000" />
-      <workItem from="1709977911190" duration="5740000" />
+      <workItem from="1709977911190" duration="7330000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -129,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709978912573</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed view&#10;win title&#10;reset button (to-do)">
+      <option name="closed" value="true" />
+      <created>1709983977102</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709983977102</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +170,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="doing checkWin func" />
     <MESSAGE value="checkWin func" />
-    <option name="LAST_COMMIT_MESSAGE" value="checkWin func" />
+    <MESSAGE value="changed view&#10;win title&#10;reset button (to-do)" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed view&#10;win title&#10;reset button (to-do)" />
   </component>
 </project>
