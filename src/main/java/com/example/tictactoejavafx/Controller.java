@@ -8,6 +8,7 @@ import javafx.scene.text.Text;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Objects;
 
 public class Controller {
 
@@ -46,24 +47,18 @@ public class Controller {
     ArrayList<Button> buttons;
     String[][] arr = new String[3][3];
     boolean checkWin(String[][] arr){
-        if((arr[0][0] == arr[0][1] && arr[0][0] == arr[0][2]&&arr[0][0] !=null)||(arr[1][0] == arr[1][1] && arr[1][0] == arr[1][2]&&arr[1][1] !=null)||(arr[2][0] == arr[2][1] && arr[2][0] == arr[2][2]&&arr[2][2] !=null)){
+        if((Objects.equals(arr[0][0], arr[0][1]) && Objects.equals(arr[0][0], arr[0][2]) &&arr[0][0] !=null)||(Objects.equals(arr[1][0], arr[1][1]) && Objects.equals(arr[1][0], arr[1][2]) &&arr[1][1] !=null)||(Objects.equals(arr[2][0], arr[2][1]) && Objects.equals(arr[2][0], arr[2][2]) &&arr[2][2] !=null)){
             return true;
         }
-        if((arr[0][0] == arr[1][0] && arr[0][0] == arr[2][0]&&arr[0][0] !=null)||(arr[0][1] == arr[1][1] && arr[0][1] == arr[2][1]&&arr[1][1] !=null)||(arr[0][2] == arr[1][2] && arr[0][2] == arr[2][2]&&arr[2][2] !=null)){
+        if((Objects.equals(arr[0][0], arr[1][0]) && Objects.equals(arr[0][0], arr[2][0]) &&arr[0][0] !=null)||(Objects.equals(arr[0][1], arr[1][1]) && Objects.equals(arr[0][1], arr[2][1]) &&arr[1][1] !=null)||(Objects.equals(arr[0][2], arr[1][2]) && Objects.equals(arr[0][2], arr[2][2]) &&arr[2][2] !=null)){
             return true;
         }
-        if((arr[0][0] == arr[1][1] && arr[0][0] == arr[2][2] && arr[0][0] !=null) || (arr[0][2] == arr[1][1] && arr[0][2] == arr[2][0] &&arr[0][2]!=null)){
-            return true;
-        }
-        return false;
+        return (Objects.equals(arr[0][0], arr[1][1]) && Objects.equals(arr[0][0], arr[2][2]) && arr[0][0] != null) || (Objects.equals(arr[0][2], arr[1][1]) && Objects.equals(arr[0][2], arr[2][0]) && arr[0][2] != null);
     }
 
     boolean checkDraw(String[][] arr){
         for(String[] i : arr){
-            for(String j : i){
-                System.out.println(j);
-                if (j==null)return false;
-            }
+            for(String j : i){if (j==null)return false;}
         }
         return true;
     }
@@ -88,12 +83,12 @@ public class Controller {
             nextSymbol = "x";
             return;
         }
-        if(nextSymbol == "x") nextSymbol = "o";
+        if(Objects.equals(nextSymbol, "x")) nextSymbol = "o";
         else nextSymbol = "x";
     }
 
     @FXML
-    void resetButton(ActionEvent event) {
+    void resetButton() {
         winnerText.setText("");
         buttons.forEach(this::resetButtons);
         arr = new String[3][3];

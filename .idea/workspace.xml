@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed94c59-aae9-466e-a3fb-fa57f79f8c13" name="Changes" comment="reset buttons&#10;buttons disabled endgame">
+    <list default="true" id="0ed94c59-aae9-466e-a3fb-fa57f79f8c13" name="Changes" comment="checkDraw func">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tictactoejavafx/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tictactoejavafx/Controller.java" afterDir="false" />
     </list>
@@ -100,7 +100,7 @@
       <updated>1709973966917</updated>
       <workItem from="1709973968218" duration="732000" />
       <workItem from="1709974740860" duration="2045000" />
-      <workItem from="1709977911190" duration="8289000" />
+      <workItem from="1709977911190" duration="8647000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -142,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709985575711</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="checkDraw func">
+      <option name="closed" value="true" />
+      <created>1709986484464</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709986484464</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +185,7 @@
     <MESSAGE value="checkWin func" />
     <MESSAGE value="changed view&#10;win title&#10;reset button (to-do)" />
     <MESSAGE value="reset buttons&#10;buttons disabled endgame" />
-    <option name="LAST_COMMIT_MESSAGE" value="reset buttons&#10;buttons disabled endgame" />
+    <MESSAGE value="checkDraw func" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkDraw func" />
   </component>
 </project>
