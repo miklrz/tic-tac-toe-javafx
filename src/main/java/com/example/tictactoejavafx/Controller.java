@@ -57,6 +57,17 @@ public class Controller {
         }
         return false;
     }
+
+    boolean checkDraw(String[][] arr){
+        for(String[] i : arr){
+            for(String j : i){
+                System.out.println(j);
+                if (j==null)return false;
+            }
+        }
+        return true;
+    }
+
     @FXML
     void onHelloButtonClick(ActionEvent event) {
         Button btn = (Button) event.getSource();
@@ -67,6 +78,12 @@ public class Controller {
         arr[x][y] = nextSymbol;
         if(checkWin(arr)) {
             winnerText.setText(nextSymbol.toUpperCase() + " Won!");
+            buttons.forEach(this::setDisable);
+            nextSymbol = "x";
+            return;
+        }
+        if(checkDraw(arr)){
+            winnerText.setText("Draw!");
             buttons.forEach(this::setDisable);
             nextSymbol = "x";
             return;

@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed94c59-aae9-466e-a3fb-fa57f79f8c13" name="Changes" comment="changed view&#10;win title&#10;reset button (to-do)">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="0ed94c59-aae9-466e-a3fb-fa57f79f8c13" name="Changes" comment="reset buttons&#10;buttons disabled endgame">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tictactoejavafx/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tictactoejavafx/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tictactoejavafx/game-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tictactoejavafx/game-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <updated>1709973966917</updated>
       <workItem from="1709973968218" duration="732000" />
       <workItem from="1709974740860" duration="2045000" />
-      <workItem from="1709977911190" duration="7330000" />
+      <workItem from="1709977911190" duration="8289000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -137,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709983977102</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="reset buttons&#10;buttons disabled endgame">
+      <option name="closed" value="true" />
+      <created>1709985575711</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709985575711</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +176,7 @@
     <MESSAGE value="doing checkWin func" />
     <MESSAGE value="checkWin func" />
     <MESSAGE value="changed view&#10;win title&#10;reset button (to-do)" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed view&#10;win title&#10;reset button (to-do)" />
+    <MESSAGE value="reset buttons&#10;buttons disabled endgame" />
+    <option name="LAST_COMMIT_MESSAGE" value="reset buttons&#10;buttons disabled endgame" />
   </component>
 </project>
